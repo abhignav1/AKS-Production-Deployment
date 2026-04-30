@@ -1,0 +1,19 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore crash logs
+crash.log
+
+# Ignore .terraform directory with downloaded provider plugins
+.terraform/
+
+# Ignore variable override files (optional)
+*.tfvars
+
+*.backup
+
+# Ignore VS Code workspace settings (optional)
+.vscode/
+
